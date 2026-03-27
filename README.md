@@ -4,6 +4,8 @@ A command-line tool that recursively scans a directory, catalogues every file
 in a SQLite database, identifies duplicates by SHA-256 hash, and removes them
 — keeping exactly one copy (the oldest by mtime) of each unique file.
 
+The tool was created with support from Claude AI.
+
 ## Requirements
 
 - Python 3.10+ (uses `match`-free code, but walrus `:=` operator is used — 3.8+)
