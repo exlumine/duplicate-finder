@@ -15,6 +15,8 @@ The tool was created with support from Claude AI.
 pip install -r requirements.txt
 ```
 
+- `sqlite3` to manage the database
+
 ## Usage
 
 ```
